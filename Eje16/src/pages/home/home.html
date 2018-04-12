@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+        Consulta Tu Curp
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list>
+  <ion-item>
+    <ion-label floating>Ingresa Tu Curp</ion-label>
+    <ion-input type="text" [(ngModel)]="user.curp"></ion-input>
+  </ion-item>
+</ion-list>
+<div>
+    <button ion-button primary block (click)="saveUser()">Adivinalo!!!</button>
+</div>
+</ion-content>
